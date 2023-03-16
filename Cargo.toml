@@ -1,0 +1,13 @@
+[package]
+name = "robot-long-jump"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argmin = { version = "0.8.1", features = ["rayon"] }
+argmin-math = "0.3.0"
+indicatif = { version = "0.17.2", features = ["rayon"] }
+rand = { version = "0.8.5", features = ["small_rng"] }
+rayon = "1.7.0"
